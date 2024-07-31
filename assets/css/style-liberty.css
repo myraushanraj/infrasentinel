@@ -1,15 +1,6 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
---*/
+
 @charset "UTF-8";
 
-/*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -65,6 +56,11 @@ main,
 nav,
 section {
   display: block;
+}
+.logo-image{
+  width: 66px;
+  margin-bottom: 12px;
+  margin-left: -13px;
 }
 
 body {
@@ -382,6 +378,7 @@ template {
 }
 
 h1,
+a,
 h2,
 h3,
 h4,
@@ -394,7 +391,7 @@ h6,
 .h5,
 .h6 {
   margin-bottom: 0.5rem;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Gowun Batang", serif !important;
   line-height: 1.2;
 }
 
@@ -17186,7 +17183,7 @@ html {
   padding: 0;
   background: var(--bg-grey);
   color: var(--font-color);
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Gowun Batang", serif;
 }
 
 body a,
@@ -17220,7 +17217,7 @@ li,
 span {
   -webkit-appearance: none;
   outline: none;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Gowun Batang", serif;
 }
 
 a,
@@ -17255,7 +17252,7 @@ p {
   font-size: 17px;
   line-height: 27px;
   color: var(--font-color);
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Gowun Batang", serif;
 }
 
 li {
@@ -17770,7 +17767,7 @@ nav ul li a:before {
   height: 50px;
   font-size: 20px;
   display: inline-block;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Gowun Batang", serif;
   font-weight:400;
   border: none;
   outline: none;
@@ -19413,7 +19410,7 @@ h2.resp-accordion:first-child {
 
 .accordion button[aria-expanded='true']+.accordion-content {
   opacity: 1;
-  max-height: 9em;
+  max-height: 21em;
   transition: all 200ms linear;
   will-change: opacity, max-height;
 }
@@ -21078,7 +21075,7 @@ h3.component-heading {
   text-align: center;
   margin-bottom: 10px;
   letter-spacing: -.02em;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Gowun Batang", serif;
 }
 
 .w3l-clients .testimonial .peopl {
